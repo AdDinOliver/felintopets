@@ -1,1 +1,1038 @@
 
+body{
+
+  margin: 0;
+
+  padding: 0;
+
+  user-select: none;
+
+  font-size: 5vw;
+
+  font-family: 'roboto';
+
+  background: teal;
+
+}
+
+.cabecalho{
+
+  background: #1ac0c6;
+
+  width: 100vw;
+
+  height: 80vw;
+
+  position: relative;
+
+}
+
+#check-menu{
+
+  display: none;
+
+}
+
+#lab-menu{
+
+  background: #1ac0c6;
+
+  width: 10vw;
+
+  height: 10vw;
+
+  position: absolute;
+
+  display: block;
+
+  z-index: 9;
+
+  right: 4vw;
+
+  top: 2.1vw;
+
+  border-radius: 1vw;
+
+  order: solid white .5vw;
+
+}
+
+#check-menu:checked~.menu{
+
+  margin-top: 0;
+
+  transition: .1s;
+
+}
+
+.traco{
+
+  background: white;
+
+  width: 7vw;
+
+  height: .5vw;
+
+  position: relative;
+
+  top: .8vw;
+
+  margin: 1.8vw .8vw .8vw 1.5vw;
+
+  border-radius: 100vw;
+
+}
+
+.menu{
+
+  background: transparent;
+
+  position: relative;
+
+  width: 100vw;
+
+  height: 14vw;
+
+  transition: .1s;
+
+  margin-top: -14vw;
+
+}
+
+.contatos{
+
+  background: transparent;
+
+  position: relative;
+
+  width: 40vw;
+
+  height: 14vw;
+
+  position: absolute;
+
+  right: 15.5vw;
+
+  display: flex;
+
+  justify-content: space-around;
+
+}
+
+.link-contatos{
+
+  background: whitesmoke;
+
+  width: 10vw;
+
+  height: 10vw;
+
+  display: block;
+
+  border-radius: 100vw;
+
+  margin-top: 2.1vw;
+
+  box-shadow: .1vw .1vw 3vw rgba(0,0,0,.3);
+
+}
+
+h1{
+
+  background: ;
+
+  position: absolute;
+
+  z-index: 9;
+
+  font-size: 7vw;
+
+  color: white;
+
+  top: -2vw;
+
+  left: 4vw;
+
+  font-weight: 500;
+
+}
+
+h2{
+
+  background: transparent;
+
+  position: absolute;
+
+  z-index: 9;
+
+  font-size: 7vw;
+
+  color: white;
+
+  top: -2vw;
+
+  left: 4vw;
+
+  width: 92vw;
+
+  top: 63vw;
+
+  margin: auto;
+
+  font-weight: 300;
+
+  text-align: center;
+  display: none;
+
+}
+
+h3{
+
+  position: absolute;
+
+  color: white;
+
+}
+
+.logo{
+
+  background: white;
+
+  position: relative;
+
+  width: 60vw;
+
+  height: 60vw;
+
+  margin: auto;
+
+  top: 16vw;
+
+  border-radius: 100%;
+
+  z-index: 8;
+
+}
+
+.img-logo{
+
+  width: 100%;
+
+  height: 100%;
+
+  border-radius: 100vw;
+
+  object-fit: cover;
+
+  object-position: center;
+
+}
+
+.banner{
+
+  background: transparent;
+
+  width: 100vw;
+
+  height: 65.6vw;
+
+  position: absolute;
+
+  top: 14vw;
+
+}
+
+.img-banner{
+
+  background: white;
+
+  width: 100vw;
+
+  height: 100%;
+
+  display: block;
+
+  object-fit: cover;
+
+  object-position: center;
+
+  filter: blur(.1vw);
+  
+  display: non;
+}
+
+main{
+
+  background: transparent;
+
+  width: 100vw;
+
+  position: relative;
+
+}
+
+.bloco{
+
+  background: transparent;
+
+  width: 92vw;
+
+  height: 100vw;
+
+  position: relative;
+
+  margin: auto;
+  margin-bottom: 3vw;
+}
+
+#bloco1{
+  height: 75vw;
+
+  background: transparent;
+
+}
+
+.categ{
+
+  background: transparent;
+
+  position: relative;
+
+  width: 100%;
+
+  height: 10vw;
+
+  display: flex;
+
+  top: 17vw;
+
+}
+
+.radio-categ{
+
+  display: none;
+
+}
+
+.lab-categ{
+
+  background: #1ac0c6;
+
+  width: 24vw;
+
+  height: 8vw;
+
+  display: block;
+
+  margin: .5vw;
+
+  position: relative;
+
+  top: .5vw;
+
+  text-align: center;
+
+  line-height: 8vw;
+
+  font-size: 4vw;
+
+  color: white;
+
+  box-shadow: .5vw .5vw 1vw rgba(0,0,0,.5);
+  
+  max-width: ;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 500;
+  padding: 0 1vw 0 1vw;
+}
+
+.card{
+
+  position: absolute;
+
+  background: white;
+
+  width: 100vw;
+
+  height: vw;
+
+  display: block;
+
+  left: -104vw;
+
+  top: 10vw;
+
+  z-index: 9;
+
+  transition: .5s;
+
+  display: non;
+
+  padding-bottom: 10vw;
+
+  transform: rotateX(90deg);
+
+  margin-top: -120vw;
+
+}
+
+#card2,#card3,#card4{
+
+  height: 850vw;
+
+}
+
+#radio-categ1:checked~#card1{
+
+  display: block;
+
+  left: -4vw;
+
+  transition: .5s;
+
+  transform: rotateX(0deg);
+
+  margin-top: 0;
+
+}
+
+#radio-categ1:checked~#lab-categ1{
+
+  background: teal;
+
+  transition: .5s;
+
+}
+
+#radio-categ2:checked~#card2{
+
+  display: block;
+
+  left: -4vw;
+
+  transition: .5s;
+
+  margin-top: 0;
+
+  transform: rotateX(0deg);
+
+}
+
+#radio-categ2:checked~#lab-categ2{
+
+  background: teal;
+
+  transition: .5s;
+
+}
+
+#radio-categ3:checked~#card3 {
+
+  display: block;
+
+  left: -4vw;
+
+  transition: .5s;
+
+  margin-top: 0;
+
+  transform: rotateX(0deg);
+
+}
+
+#radio-categ3:checked~#lab-categ3 {
+
+  background: teal;
+
+  transition: .5s;
+
+}
+
+#radio-categ4:checked~#card4 {
+
+  display: block;
+
+  left: -4vw;
+
+  transition: .5s;
+
+  margin-top: 0;
+
+  transform: rotateX(0deg);
+
+}
+
+#radio-categ4:checked~#lab-categ4 {
+
+  background: teal;
+
+  transition: .5s;
+
+}
+
+.fechar-card{
+
+  display: none;
+
+}
+
+#lab-fechar{
+
+  background: #1ac0c6;
+
+  position: absolute;
+
+  width: 8vw;
+
+  height: 8vw;
+
+  border-radius: 100vw;
+
+  right: 4vw;
+
+  top: 2vw;
+
+  z-index: 9;
+
+  text-align: center;
+
+  color: white;
+
+  line-height: 8vw;
+
+  z-index: -1;
+
+  transition: 1s;
+
+}
+
+.img-prod{
+
+  background: white;
+
+  position: relative;
+
+  width: 92vw;
+
+  height: 0vw;
+
+  margin: auto;
+
+  display: block;
+
+  top: 12vw;
+
+  transition: .1s;
+
+  z-index: 1;
+
+  display: non;
+
+  border-radius: 1vw;
+  
+}
+
+.nome-prodcard{
+
+  background: transparent;
+
+  position: relative;
+
+  width: 92vw;
+
+  top: 10vw;
+
+  font-size: 4.5vw;
+
+  font-weight: 500;
+
+  margin-left: 4vw;
+
+  padding-bottom: 1vw;
+
+  border-bottom: dotted .5vw #1ac0c6;
+
+}
+
+.nome-prodcard:hover ~ .img-prod{
+
+  height: 60vw;
+
+  display: bloc;
+
+  top: 1.5vw;
+
+  transition: .2s;
+
+}
+
+.nome-prodcard:hover ~ .link-pedir{
+
+  margin-top: 1vw;
+
+  z-index: -1;
+
+  transition: .2s;
+
+}
+
+.preco-card{
+
+  background: whitesmoke;
+
+  position: absolute;
+
+  width: ;
+
+  padding: 1vw;
+
+  right: 4vw;
+
+  top: -1vw;
+
+  color: #1ac0c6;
+
+  font-size: 5vw;
+
+  right: 0vw;
+
+}
+
+.link-pedir{
+
+  background: #1ac0c6;
+
+  padding: 2vw;
+
+  position: relative;
+
+  color: white;
+
+  width: 88vw;
+
+  left: 4vw;
+
+  text-align: center;
+
+  font-size: 5vw;
+
+  text-decoration: none;
+
+  transition: .2s;
+
+  z-index: -1;
+
+  top: 2vw;
+
+  display: block;
+
+
+}
+
+.descri-prod{
+
+  background: white;
+
+  position: relative;
+
+  margin: auto;
+
+  left: vw;
+
+  display: block;
+
+  width: 92vw;
+
+  margin-top: 12vw;
+
+  font-size: 3.5vw;
+
+  color: grey;
+
+  padding: 2vw 0 2vw 0;
+
+}
+
+.img-banner2{
+
+  background: white;
+
+  width: 100%;
+
+  height: 50vw;
+
+  display: block;
+
+  position: absolute;
+
+  top: 27vw;
+
+  z-index: ;
+
+}
+
+#bloco2{
+
+  background: transparent;
+
+  height: 77vw;
+
+}
+
+.pag-iframe{
+
+   background: transparent;
+
+   width: 92vw;
+
+   height: 58vw;
+
+   position: relative;
+
+   top: 18vw;
+
+}
+
+#bloco3{
+
+  height: 50vw;
+
+}
+
+.texto-horario{
+
+  background: #1ac0c6;
+
+  border: solid white 1vw;
+
+  margin: auto;
+
+  position: relative;
+
+  top: 17vw;
+
+  padding: 4vw;
+
+  font-size: 4vw;
+
+  line-height: 8vw;
+
+  color: white;
+
+}
+#clinica{
+  height: 100vw;
+  background: transparent;
+}
+.div-clinica{
+   background: transparent;
+   position: absolute;
+   width: 100%;
+   height: 80vw;
+   top: 20vw;
+  
+}
+.img-clinica{
+  background: white;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: non;
+  z-index: 1;
+  object-fit: cover;
+  object-position: center;
+  box-shadow: .5vw .5vw 1vw rgba(0,0,0,.5);
+}
+.texto-clinica{
+  background: rgba(0,0,0,.5);
+  position: relative;
+  z-index: 3;
+  text-align: center;
+  padding: 3vw;
+  width: 86vw;
+  margin: auto;
+  font-size: 7vw;
+  top: 18vw;
+  color: white;
+}
+.btn-agendar{
+  background: teal;
+  color: white;
+  text-align: center;
+  display: block;
+  padding: 2vw;
+  margin: auto;
+  z-index: 3;
+  text-decoration: none;
+  position: relative;
+  top: 26vw;
+  width: 40vw;
+  border-radius: 1vw;
+  font-size: 4vw;
+}
+#bloco4{
+
+  height: 100vw;
+
+}
+
+.map-iframe{
+
+  background: white;
+
+  position: relative;
+
+  width: 100%;
+
+  height: 83vw;
+
+  top: 17vw;
+  z-index: 8;
+
+}
+
+.rodape{
+
+  background: #1ac0c6;
+
+  width: 100vw;
+
+  height: 25vw;
+
+  position: relative;
+  
+  adding-top: 43vw;
+  z-index: 8;
+  argin-top: -32vw;
+
+}
+.img-rodape{
+  background: #cccccc;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  object-fit: cover;
+  object-position: cover;
+  z-index: 5;
+  display: non;
+}
+.redes{
+
+  background: transparent;
+
+  width: 50vw;
+
+  height: 15vw;
+
+  position: relative;
+
+  display: flex;
+
+  justify-content: space-evenly;
+
+  margin: auto;
+
+  top: 5vw;
+  z-index: 9;
+
+}
+
+.link-redes{
+
+  background: white;
+
+  position: relative;
+
+  width: 10vw;
+
+  height: 10vw;
+
+  display: block;
+
+  border-radius: 2vw;
+
+  box-shadow: .1vw .1vw 3vw rgba(0,0,0,.3);
+
+  
+
+}
+
+.imgredes{
+
+  width: 100%;
+
+  height: 100%;
+
+  object-fit: cover;
+
+  object-position: center;
+
+  border-radius: 1vw;
+
+}
+
+.copy{
+
+  background: transparent;
+
+  position: relative;
+
+  top: 2vw;
+
+  text-align: center;
+
+  font-size: 3vw;
+
+  color: black;
+  z-index: 9;
+  font-weight: 500;
+
+}
+
+/* Estilização página 2*/
+
+.slid{
+
+  background: transparent;
+
+  position: relative;
+
+  width: 370vw;
+
+  height: 62vw;
+
+  display: flex;
+
+  justify-content: space-around;
+
+  justify-items: center;
+
+}
+
+.card-slid{
+
+  background: transparent;
+
+  position: relative;
+
+  width: 90vw;
+
+  height: 60vw;
+
+  border-radius: 3vw;
+
+  top: 1vw;
+
+  margin-right: 2vw;
+
+}
+
+.img-slid{
+
+  background: whitesmoke;
+
+  position: relative;
+
+  width: 100%;
+
+  height: 49vw;
+
+  object-fit: cover;
+
+  object-position: bottom;
+
+  border-radius: 2vw;
+  display: non;
+  box-shadow: .5vw .5vw 1vw rgba(0,0,0,.5);
+}
+
+.nome-prod{
+
+  background: white;
+
+  width: 86vw;
+
+  position: absolute;
+
+  top: 45vw;
+
+  padding: 2vw;
+
+  left: 0;
+
+  font-size: 5vw;
+
+  font-weight: 500;
+
+  display: block;
+
+  color: black;
+
+  border-radius: 2vw;
+
+  text-align: center;
+
+}
+
+.preco{
+
+  position: absolute;
+
+  background: teal;
+
+  font-size: 6vw;
+
+  top: -13vw;
+
+  left: 20vw;
+
+  color: white;
+
+  border-radius: 2vw;
+
+  width: 30vw;
+
+  padding: 2vw;
+
+  text-align: center;
+
+}
+
+.pedir-slid{
+
+  position: absolute;
+
+  top: 4vw;
+
+  left: 4vw;
+
+  display: block;
+
+  padding: 2vw;
+
+  background: #1ac0c6;
+
+  text-decoration: none;
+
+  text-align: center;
+
+  width: 30vw;
+
+  color: white;
+
+  font-weight: 500;
+
+  font-size: 6vw;
+
+  top: 37vw;
+
+  left: 55vw;
+
+  border-radius: 2vw;
+
+}
+
